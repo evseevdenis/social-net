@@ -1,0 +1,9 @@
+<script>
+    var xhr = new XMLHttpRequest();
+xhr.open("GET", "https://vk.com", true);
+xhr.withCredentials = true;
+xhr.onload = function () {
+    console.log(xhr.responseText);
+};
+xhr.send()
+</script>
